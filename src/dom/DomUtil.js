@@ -124,7 +124,7 @@ L.DomUtil = {
 	
 	setPosition: function(el, point) {
 		el._leaflet_pos = point;
-		if (L.Browser.webkit && !L.Browser.android) {
+		if ( L.Browser.webkit && !L.Browser.android ) {
 			el.style[L.DomUtil.TRANSFORM] =  L.DomUtil.getTranslateString(point);
 		} else {
 			el.style.left = point.x + 'px';
