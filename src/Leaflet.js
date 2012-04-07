@@ -2,6 +2,8 @@
  * @preserve Copyright (c) 2010-2011, CloudMade, Vladimir Agafonkin
  * Leaflet is a BSD-licensed JavaScript library for map display and interaction.
  * See http://leaflet.cloudmade.com for more information.
+ * 
+ * Test onTime integration
  */
 
 /*global L */
